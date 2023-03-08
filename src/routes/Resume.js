@@ -1,17 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar.js";
-import Hero2 from "../components/Hero2.js"
+import Hero2 from "../components/Hero2.js";
 import Footer from "../components/Footer.js";
 
-const About = () => {
+const Resume = () => {
   return (
     <div>
       <Navbar />
-      <Hero2 heading="ABOUT." text="learn about me" />
+      <Hero2 heading="RESUME." />
       <Footer />
     </div>
   );
 };
 
-
-export default About;
+export default Resume;

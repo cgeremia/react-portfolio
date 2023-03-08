@@ -9,13 +9,13 @@ const Navbar = () => {
 
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if(window.scrollY >=100) {
+    if (window.scrollY >= 100) {
       setColor(true);
-    }else{
+    } else {
       setColor(false);
     }
-    };
-    window.addEventListener("scroll", changeColor);
+  };
+  window.addEventListener("scroll", changeColor);
 
   return (
     <div className={color ? "header header-bg" : "header"}>
@@ -24,13 +24,14 @@ const Navbar = () => {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
           <Link to="/projects">Projects</Link>
         </li>
+        
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/resume">Resume</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
