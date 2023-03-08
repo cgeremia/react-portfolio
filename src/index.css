@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #0000;
+  background: rgba(255, 7, 7, 0);
 }
 
 h1,
@@ -27,7 +27,7 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(240, 233, 189);
+  background: rgba(214, 205, 146, 0.7);
   color: #222;
   border: 1px solid #ffff;
   font-weight: 500;
