@@ -1,6 +1,6 @@
 import "./HeroStyles.css";
 import React from "react";
-import IntroImg from "../assets/pexels-life-of-pix-8892.jpg";
+import IntroImg from "../assets/pexels-steve-johnson-1843717.jpg";
 import { Link } from 'react-router-dom';
 
 
@@ -11,7 +11,7 @@ const Hero = () => {
         <img className="intro-img" src={IntroImg} alt="texture background" />
       </div>
       <div className="content">
-        <p>Hello, my name is</p>
+        <p>Full-Stack Developer</p>
         <h1>Cristina Geremia</h1>
         <Link to="/projects" className="btn">
           Projects
