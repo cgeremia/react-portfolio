@@ -1,3 +1,47 @@
+# README.md
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  ## Description
+
+ Portfolio created using REACT
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+  ## Installation
+
+  npx create-react-app 
+  npm install 
+
+  ## Usage
+
+  npm start 
+
+  ## License
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  https://opensource.org/licenses/MIT 
+    
+
+  ## Contributing
+  No
+  
+  ## Tests
+  npm test
+
+  ## Questions
+  My GitHub: https://github.com/cgeremia <br>
+  Email me: g_cristina@live.com
+  
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
